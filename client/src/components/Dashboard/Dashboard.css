@@ -1,0 +1,18 @@
+/* .dashboard__welcome {
+
+} */
+
+.dashboard__subjects__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.dashboard__schedule__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+  

@@ -1,0 +1,13 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.header__search__and__profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+}

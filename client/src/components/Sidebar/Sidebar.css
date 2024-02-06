@@ -1,0 +1,8 @@
+.sidebar__contianer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__item {
+  display: flex;
+}
