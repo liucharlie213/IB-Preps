@@ -1,13 +1,27 @@
 .header__container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100vw;
+  height: 80px; 
+  background-color: pink;
 }
 
-.header__search__and__profile {
+.header__content {
   display: flex;
+  width: 90vw;
   align-items: center;
   justify-content: space-between;
-  width: 40vw;
 }
+
+.header__profile__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__profile__info p{
+  margin:0;
+}
+

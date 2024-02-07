@@ -1,0 +1,31 @@
+/* Layout.css */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.app-header {
+  /* Header styles */
+  /* width: 100%; */
+  /* Ensure the header is at the top */
+}
+
+.app-content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.app-sidebar {
+  /* Sidebar styles */
+  /* width: 200px; Adjust as needed */
+  /* Ensure the sidebar takes up necessary space */
+}
+
+.app-content {
+  flex-grow: 1;
+  /* width: 100vw; */
+
+  /* Adjust padding as needed, this is your main content area */
+}
