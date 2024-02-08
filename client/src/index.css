@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 body {
   margin: 0;
@@ -24,7 +24,6 @@ body {
   --medium-font-size: 17px;
   --large-font-size: 21px;
   
-
-
+  --light-blue-color: #a1c3d9;
   --dark-blue-color: #02385C;
 }

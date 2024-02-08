@@ -26,7 +26,7 @@ function Dashboard() {
                 <p id="dashboard__welcome__date">current date</p>
             </div>
             <div className="dashboard__welcome__message">
-                <p id="dashboard__welcome__title">Welcome back, NAME</p>
+                <p id="dashboard__welcome__title">Welcome back, NAME!</p>
                 <p id="dashboard__welcome__quote">You have everything in your hands to achieve your goal.</p>
                 <p id="dashboard__welcome__quote">Let's make it happen!</p>
             </div>
@@ -44,7 +44,7 @@ function Dashboard() {
                         <p>{subject}</p>
                     </div>
                 ))}
-                <div className="dashboard__subject__item">Add Subject</div>
+                <div className="dashboard__subject__item" id="dashboard__subject__add">Add Subject</div>
             </div>
         </div>
         <div className="dashboard__schedule">

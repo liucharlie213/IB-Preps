@@ -34,7 +34,7 @@ function Sidebar() {
           <p>Ask a Tutor</p>
         </div>
       </div>
-      <div className="sidebar__logout">
+      <div className="sidebar__item">
         {/* <img src={}></img> */}
         <p>Log out</p>
       </div>

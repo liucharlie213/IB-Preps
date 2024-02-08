@@ -4,7 +4,8 @@
   justify-content: center;
   width: 100vw;
   height: 8vh; 
-  background-color: whote;
+  background-color: white;
+  border-bottom: 1px var(--dark-blue-color) solid;
 }
 
 .header__content {
@@ -14,14 +15,28 @@
   justify-content: space-between;
 }
 
+#header__name {
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .header__profile__info {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .header__profile__info p{
   margin:0;
+}
+
+#header__profile__name {
+  font-weight: var(--semibold-font-weight);
+  font-size: var(--medium-font-size);
+}
+
+#header__profile__grade {
+  font-size: 12px;
 }
 

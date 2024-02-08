@@ -81,6 +81,10 @@
 
 }
 
+#dashboard__subject__add {
+  background-color: var(--light-blue-color);
+}
+
 .dashboard__schedule {
   display: flex;
   flex-direction: column;
@@ -114,9 +118,10 @@
   max-height: 150px;
   width: 30vw;
   max-width: 375px;
-  background-color: white;
+  background-color: var(--light-blue-color);
   border-radius: var(--element-border-radius);
   padding-left: 1vw;
+
 }
 
 .dashboard__schedule__item p{
@@ -132,6 +137,8 @@
   justify-content: center;
   align-items: center;
   padding-left: 0px;
+  background-color: var(--dark-blue-color);
+  color: white;
 }
 
 #dashboard__schedule__date {

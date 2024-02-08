@@ -2,14 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20vh;
+  gap: 25vh;
   width: 25vw;
   max-width: 175px;
   height: 92vh;
   padding: 30px 50px; 
-  /* padding-left: 5vw; */
   background-color: white;
-
+  border-right: 1px var(--dark-blue-color) solid;
 }
 
 .sidebar__item {
@@ -17,4 +16,6 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-size: var(--small-font-size);
+  text-align: left;
 }
