@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40vh;
-  width: 20vw;
-  max-width: 130px;
-  height: 100vh;
+  gap: 20vh;
+  width: 25vw;
+  max-width: 175px;
+  height: 92vh;
   padding: 30px 50px; 
   /* padding-left: 5vw; */
-  background-color: #0000ff;
+  background-color: white;
 
 }
 

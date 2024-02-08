@@ -25,6 +25,7 @@
 
 .app-content {
   flex-grow: 1;
+  background-color: #f2f2f2;
   /* width: 100vw; */
 
   /* Adjust padding as needed, this is your main content area */
