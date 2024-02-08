@@ -8,7 +8,7 @@
   height: 92vh;
   padding: 30px 50px; 
   background-color: white;
-  border-right: 1px var(--dark-blue-color) solid;
+  /* border-right: 1px var(--dark-blue-color) solid; */
 }
 
 .sidebar__item {
