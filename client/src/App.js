@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './components/Header/Header'
 import Dashboard from './components/Dashboard/Dashboard'
 import Sidebar from './components/Sidebar/Sidebar'
+import Subjects from './components/Subjects/Subjects'
 
 
 
@@ -9,8 +10,9 @@ function App() {
   return (
     <div>
       {/* <Header /> */}
-      <Dashboard />
+      {/* <Dashboard /> */}
       {/* <Sidebar /> */}
+      <Subjects />
     </div>
   )
 
