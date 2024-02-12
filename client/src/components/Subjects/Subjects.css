@@ -17,6 +17,10 @@
   width: 80vw;
 }
 
+.subjects__subjects__text {
+  font-weight: var(--semibold-font-weight);
+}
+
 .subjects__subjects__items {
   display: flex;
   align-items: center;
@@ -34,8 +38,8 @@
   justify-content: center;
   height: 8vh;
   max-height: 250px;
-  width: 18vw;
-  max-width: 225px;
+  width: 20vw;
+  max-width: 250px;
   background-color: white;
   border-radius: var(--element-border-radius);
 
@@ -65,8 +69,59 @@
   justify-content: center;
   height: 20vh;
   max-height: 350px;
-  width: 30vw;
-  max-width: 300px;
+  width: 35vw;
+  max-width: 350px;
   background-color: white;
+  border-radius: var(--element-border-radius);
+}
+
+.subjects__mode__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subjects__content__topics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: var(--element-border-radius);
+  margin-top: 25px;
+  height: 40vh;
+  width: 80vw;
+  gap: 2vh;
+}
+
+.subjects__content__topic {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  width: 40vw;
+  background-color: white;
+  padding-left: 2vw;
+  border-radius: var(--element-border-radius);
+}
+
+.subjects__exams__mocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: var(--element-border-radius);
+  margin-top: 25px;
+  height: 40vh;
+  width: 80vw;
+  gap: 2vh;
+}
+
+.subjects__exams__mock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 20vw;
+  height: 25vh;
   border-radius: var(--element-border-radius);
 }
